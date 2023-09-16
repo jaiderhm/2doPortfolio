@@ -33,6 +33,7 @@ body {
   align-items: center;
   gap: 10px;
   margin: 0px 200px 0px -200px;
+  color:#001f54;
 }
 
 .haeader header nav {
@@ -49,6 +50,7 @@ span {
   height: 20px;
   width: 70px;
   padding: 20px;
+  color: #001f54;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -58,6 +60,7 @@ span {
 span:hover {
   background: #001f54;
   cursor: pointer;
+  color: #fff;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -83,11 +86,18 @@ span:hover {
   display: flex;
   justify-self: center;
   align-items: center;
-  margin: 20px 360px;
+  margin: 20px 380px;
+}
+
+.Inicio h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
 }
 
 .logos {
-  width: 50px;
+ margin: 0px -100px 0px 200px;
+ width: 50px;
 }
 
 .logos ion-icon {

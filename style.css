@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #034078;
+  background-color: #001f54;
 }
 
 .contenedorPrincipal {
@@ -33,7 +33,7 @@ body {
   align-items: center;
   gap: 10px;
   margin: 0px 200px 0px -200px;
-  color:#001f54;
+  color: #001f54;
 }
 
 .haeader header nav {
@@ -48,7 +48,7 @@ span {
   font-size: 18px;
   text-align: center;
   height: 20px;
-  width: 70px;
+  width: 90px;
   padding: 20px;
   color: #001f54;
   border-radius: 6px;
@@ -57,6 +57,7 @@ span {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+
 span:hover {
   background: #001f54;
   cursor: pointer;
@@ -77,8 +78,7 @@ span:hover {
 
 .Inicio {
   background: #001f54;
-  border: 1px solid #fff;
-  height: 500px;
+  height: 800px;
   width: 100%;
 }
 
@@ -86,18 +86,22 @@ span:hover {
   display: flex;
   justify-self: center;
   align-items: center;
-  margin: 20px 380px;
+  margin: 100px 380px 0px 380px;
 }
 
-.Inicio h1{
-    text-align: center;
-    font-size: 40px;
-    color: #fff;
+.Inicio h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+#Developer{
+    font-family:'Courier New', Courier, monospace;
 }
 
 .logos {
- margin: 0px -100px 0px 200px;
- width: 50px;
+  margin: 0px -100px 0px 200px;
+  width: 50px;
 }
 
 .logos ion-icon {
@@ -117,4 +121,31 @@ span:hover {
   -o-transition: 0.6s;
 }
 
+.section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  background: #1282a2;
+}
 
+.section1 section {
+  height: 100px;
+  width: 300px;
+  font-size: 15px;
+  margin: 0px 30px;
+  color: #fff;
+}
+
+.section1 .titulo2 {
+  margin: 0px 30px;
+  justify-content: start;
+  font-size: 20px;
+  color: #001f54;
+}
+
+.section1 .contenedor1{
+    margin: -100px 0px 100px 0px;
+    height: 230px;
+}
